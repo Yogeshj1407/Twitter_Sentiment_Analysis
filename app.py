@@ -6,7 +6,7 @@ import sklearn
 
 
 st.title("Twitter Sentiment Analysis")
-g
+
 model = pickle.load(open('twitter_sentiment_v4.pkl','rb'))
 
 tweet = st.text_input('Enter Tweet')
